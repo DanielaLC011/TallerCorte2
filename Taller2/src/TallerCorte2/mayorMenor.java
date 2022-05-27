@@ -35,6 +35,15 @@ public class mayorMenor {
             }
             else 
             System.out.println("El numero mayor es:" +c);
+            
+            if (a<b && a<c){
+            System.out.println("El numero menor es:" +a);
+            }
+            else if (b<a && b<c){
+            System.out.println("El numero menor es:" +b);
+            }
+            else 
+            System.out.println("El numero menor es:" +c);
     }
     
     

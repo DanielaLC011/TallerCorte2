@@ -12,7 +12,7 @@ public class Sumatoria {
     
     public static void main(String[] args) {
          
-        int num; 
+        int num, num2; 
         
         for (num=1; num<=10; num++){
             System.out.print(num);
