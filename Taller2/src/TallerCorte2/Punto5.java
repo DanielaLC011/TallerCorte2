@@ -25,8 +25,7 @@ public class Punto5 {
         else if (num1<num2) {
         JOptionPane.showMessageDialog(null, "El numero mayor es:" +num2+ "Numero menor es:" +num1);
         }
-               
-                
+                      
     }
     
 }
