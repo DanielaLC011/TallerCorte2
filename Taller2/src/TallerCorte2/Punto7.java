@@ -13,12 +13,15 @@ import javax.swing.JOptionPane;
 public class Punto7 {
     public static void main(String[] args) {
         
+        //Se declaran variables 
         int num1, num2, num3; 
         
+        //Se solicitan numeros al usuario 
         num1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el primer numero"));
         num2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el segundo numero"));
         num3 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el tercer numero"));
         
+        //se crea condicional para demostrar cual es el numero menor 
         if (num1<=num2 && num1<=num3){
             JOptionPane.showMessageDialog(null, "El numero menor es:" +num1);
         }
