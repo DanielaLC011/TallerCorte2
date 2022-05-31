@@ -12,35 +12,39 @@ import javax.swing.JOptionPane;
  */
 public class Punto8 {
     public static void main(String[] args) {
+        
+        //Se declaran variables 
         int num1, num2, num3; 
         
+        //Se solicitan numeros al usuario 
         num1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el primer numero"));
         num2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el segundo numero"));
         num3 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el tercer numero"));
         
+        //Condicionales para determinar nota intermedio 
         if (num1>=num2 && num1>=num3){
             if (num2<num3) {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num3);
                 }
-                else {
+            else {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num2);
                 }
         }
         else if (num2>=num1 && num2>=num3){
-           if (num1<num3) {
+            if (num1<num3) {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num3);
-                }
-                else {
+            }
+            else {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num1);
-                } 
+            } 
         }
         else if (num3>=num1 && num3>=num2){
             if (num1<num2) {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num2);
-                }
-                else {
+            }
+            else {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num1);
-                }
+            }
         }
               
     }
