@@ -13,13 +13,16 @@ import javax.swing.JOptionPane;
 public class Punto9 {
     public static void main(String[] args) {
         
+        //Se declaran Variables 
         int nota1, nota2, nota3, nota4, promedio; 
         
+        //Se solicitan notas al usuario 
         nota1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la primera nota"));
         nota2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la segunda nota"));
         nota3 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la tercera nota"));
         nota4 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cuarta nota"));
         
+        //Condicionales para determinar nota menor y sacar promedio de las 3 notas mas altas
         if (nota1<=nota2 && nota1<=nota3 && nota1<=nota4){
             promedio = (nota2+nota3+nota4)/3;
             JOptionPane.showMessageDialog(null, "La nota mas baja es:" +nota1);
