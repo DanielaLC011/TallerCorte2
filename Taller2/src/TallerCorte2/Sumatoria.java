@@ -18,7 +18,7 @@ public class Sumatoria {
         int num, suma; 
         suma = 0;
         
-        //Ciclo para comprobar la suma de los entreros entre 1-10
+        //Condicional para comprobar la suma de los entreros entre 1-10
         for (num=1; num<=10; num++){
             suma=suma+num;
             System.out.print(num);
