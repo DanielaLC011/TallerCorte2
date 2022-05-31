@@ -14,10 +14,12 @@ public class mayorMenor {
     
     public static void main(String[] args) {
         
+        //se declaran variables 
         int a, b, c; 
         
         Scanner leer = new Scanner (System.in);
         
+        //se solicitan los numeros al usuario
         System.out.println("Ingrese el primer numero");
             a = leer.nextInt(); 
         
@@ -27,6 +29,7 @@ public class mayorMenor {
         System.out.println("Ingrese el primer numero");
             c = leer.nextInt();     
             
+            //se crea ciclo para verificar cual es el numero mayor 
             if (a>b && a>c){
             System.out.println("El numero mayor es:" +a);
             }
@@ -36,6 +39,7 @@ public class mayorMenor {
             else 
             System.out.println("El numero mayor es:" +c);
             
+            //se crea ciclo para verificar cual es el numero menor 
             if (a<b && a<c){
             System.out.println("El numero menor es:" +a);
             }
