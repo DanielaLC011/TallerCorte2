@@ -25,7 +25,7 @@ public class Punto8 {
                 else {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num2);
                 }
-            }
+        }
         else if (num2>=num1 && num2>=num3){
            if (num1<num3) {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num3);
@@ -34,7 +34,7 @@ public class Punto8 {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num1);
                 } 
         }
-        if (num3>=num1 && num3>=num2){
+        else if (num3>=num1 && num3>=num2){
             if (num1<num2) {
                 JOptionPane.showMessageDialog(null, "El numero Intermedio es:" +num2);
                 }
